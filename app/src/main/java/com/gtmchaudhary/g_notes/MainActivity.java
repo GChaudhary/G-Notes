@@ -48,21 +48,6 @@ public class MainActivity extends AppCompatActivity {
         rcView.setAdapter(myAdapter);
 
 
-        /************* Swipe-Down-To-Refresh ***************
-        swipeRefreshLayout = (SwipeRefreshLayout)findViewById(R.id.swipeRefresh);
-        swipeRefreshLayout.setOnRefreshListener(
-                new SwipeRefreshLayout.OnRefreshListener() {
-                    @Override
-                    public void onRefresh() {
-                        Log.i(TAG, "onRefresh called from SwipeRefreshLayout");
-
-                        myAdapter.notifyDataSetChanged();
-                        swipeRefreshLayout.setRefreshing(false);
-                        //refreshNotes();
-                    }
-                }
-        );
-*/
         /***************Floating Action Button**************/
             FloatingActionButton myFab = (FloatingActionButton)findViewById(R.id.fab);
             myFab.setOnClickListener(new View.OnClickListener() {

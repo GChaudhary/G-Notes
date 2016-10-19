@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Save -->
+    <item android:id="@+id/action_saveNote"
+        android:icon="@drawable/ic_action_save"
+        android:title="Save"
+        app:showAsAction="ifRoom"/>
+
+
+    <!-- Discard -->
+    <item android:id="@+id/action_discardNote"
+        android:icon="@drawable/ic_action_discard"
+        android:title="Discard"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>
